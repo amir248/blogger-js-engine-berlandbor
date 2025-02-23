@@ -3,6 +3,7 @@
     padding:0;
 }
 body{
+    min-height:100vh;
     background: linear-gradient(rgb(255, 255, 120),rgb(117, 117, 255));
 }
 main{
