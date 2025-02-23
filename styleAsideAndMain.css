@@ -35,4 +35,16 @@ aside{
     #hiden{
         display:none;
     }
+    aside{
+        position: inherit;
+    }
+}
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    background-color: rgb(48, 47, 47);
+    color:aliceblue;
+    min-height:70px;
 }
