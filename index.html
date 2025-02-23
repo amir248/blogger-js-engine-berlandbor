@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блогерский Движок berlandbor</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styleAsideAndMain.css">
+    <link rel="shortcut icon" href="blog-svgrepo-com.svg" type="image/x-icon">
+    <meta name="description" content="Блогерский движок на гитхабе, с возможностью модификации и бесклатного ведения.">
+</head>
+<body>
+    <main>
+        <article>
+            <h1>Блогерский Движок <a href="https://berlandbor.github.io/blogger-js-engine-berlandbor/?article=6&title=project-root-">berlandbor</a></h1>
+
+    <!-- Оглавление (прокручиваемый блок) -->
+    
+
+    <!-- Поле поиска -->
+    <!-- Красивое поле поиска -->
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Поиск по статьям..." oninput="searchPosts()">
+            </div>
+                <div id="blog"></div>
+
+                <!-- Кнопки для переключения страниц -->
+                <div class="pagination">
+                    <button id="prevPage">← Назад</button>
+                    <span id="pageNumber">Страница 1</span>
+                    <button id="nextPage">Вперёд →</button>
+                </div>
+            <p>В этом блоге можно делиться ссылками на статьи.</p>
+        </article>
+        <aside id="hiden">
+            <div id="toc-container">
+                <h2>Содержание</h2>
+                <div id="toc"></div>
+            </div><hr>
+        </aside>
+    </main>
+    
+<footer>
+    <p>© berlandbor</p>
+</footer>
+
+
+    <script src="main/linkify.js"></script>
+    <script src="main/CoreBlog.js"></script>
+
+    <script src="main/createNewAside.js"></script>
+    <!--script src="script.js"></script-->
+</body>
+</html>

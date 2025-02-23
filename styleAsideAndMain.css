@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: linear-gradient(rgb(255, 255, 120),rgb(117, 117, 255));
+}
+main{
+    display:flex;
+    justify-content: center;
+    align-items:flex-start;
+    width:100%;
+    max-width:1450px;
+    flex-wrap: wrap;
+}
+article{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    max-width:800px;
+}
+aside{
+    display:block;
+    top:0;
+    width:100%;
+    max-width:330px;
+    min-height:500px;
+    position: sticky;
+}
+
+@media(max-width:1180px){
+    #hiden{
+        display:none;
+    }
+}
